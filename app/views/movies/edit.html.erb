@@ -1,0 +1,19 @@
+
+
+
+<div class="card text-dark bg-light mb-3 mt-5 " style="width: 18rem;">
+  <div class="card-header">
+    <h1>Editing movie</h1>
+  </div>
+  <div class="card-body">
+    <%= render "form", movie: @movie %>
+  </div>
+</div>
+
+<br>
+
+<div>
+  <%= link_to "Show this movie", @movie,  class:"btn btn-dark" %> |
+  <%= link_to "Back to movies", movies_path, class:"btn btn-dark" %>
+  
+</div>

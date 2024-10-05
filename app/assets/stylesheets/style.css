@@ -1,0 +1,61 @@
+* {
+    font-family: "Cabin", sans-serif
+}
+
+.navbar {
+    background-color: #373A3C;
+}
+
+.navbar-brand{
+    font-family: "Lobster", sans-serif !important;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#carousel{
+    padding-top: 70px;
+}
+
+#carousel img{
+    width: 400px;
+}
+
+
+#receta{
+    text-align: left;
+    padding-top: 60px;
+}
+
+.suscripcion {
+    background-color: #DC3545;
+    height: 300px;
+}
+
+.ricomida{
+    font-family: "Lobster", sans-serif !important;
+    font-weight: 400;
+    font-style: normal;
+}
+
+footer{
+    padding-top: 35px;
+    height: 80px;
+    color: white;
+    text-align: center;
+    background: #373A3C;
+    
+}
+
+.titulo{
+    font-family: "Lobster", sans-serif !important;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+}
+@media (max-width: 766px) {
+    .texto_pizza {
+        text-align: center;
+    }
+    
+}
+  

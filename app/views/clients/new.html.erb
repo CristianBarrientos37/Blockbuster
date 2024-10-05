@@ -1,0 +1,16 @@
+
+
+<div class="card text-dark bg-light mb-3 mt-5 " style="width: 18rem;">
+  <div class="card-header">
+    <h1>New client</h1>
+  </div>
+  <div class="card-body">
+    <%= render "form", client: @client %>
+  </div>
+</div>
+
+<br>
+
+<div>
+  <%= link_to "Back to clients", clients_path, class:"btn btn-dark" %>
+</div>
